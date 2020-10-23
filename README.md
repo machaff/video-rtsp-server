@@ -1,0 +1,1 @@
+Purpose of this project is to create a rtsp from a video.
