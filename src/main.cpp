@@ -1,10 +1,10 @@
 #include <iostream>
 #include <gst/gst.h>
+#include "RtspServer.h"
 
 int main(int argc, char *argv[]) {
+    auto *server = new RtspServer(" ");
+    server->create_rtsp();
 
-    gst_init(&argc, &argv);
-
-    std::cout << "Hello gstreamer" << std::endl;
     return 0;
 }

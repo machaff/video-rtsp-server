@@ -45,7 +45,7 @@ link_directories(
   ${GSTREAMER-RTSP-SERVER_LIBRARY_DIRS}
 )
 
-set(video-rtsp-server_SOURCES main.cpp)
+set(video-rtsp-server_SOURCES main.cpp RtspServer.cpp)
 
 set(video-rtsp-server_LIBRARIES
   ${GSTREAMER_LIBRARIES}
