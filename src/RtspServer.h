@@ -4,6 +4,8 @@
 #include <string>
 #include <iostream>
 
+#define SERVER_PORT "2323"
+
 class RtspServer {
     private:
         std::string video_path;
